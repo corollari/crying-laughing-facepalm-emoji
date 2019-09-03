@@ -14,5 +14,8 @@
 **Deadline: March 2019**
 
 Important links:
-- <https://www.unicode.org/emoji/proposals.html#selection_factors>
+- <https://unicode.org/emoji/proposals.html>
 - <https://unicode.org/emoji/future/emoji-candidates.html>
+- <http://www.emojination.org/>
+- <https://docs.google.com/document/d/1TO88Em5A7_hZ8b1eWKa4Srq1QErvF0snIan2DNL_WCk/edit>
+- <https://docs.google.com/document/d/1AKlzyW70VnIEcEtu3MXZOVagm4fZ7l1qOfe2DU0X0C0/edit#heading=h.b43w3syqalta>
