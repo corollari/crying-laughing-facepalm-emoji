@@ -1,0 +1,27 @@
+language: node_js
+node_js:
+  - "11"
+
+before_install:
+  - wget https://github.com/jgm/pandoc/releases/download/2.2.1/pandoc-2.2.1-1-amd64.deb && sudo dpkg -i pandoc-2.2.1-1-amd64.deb
+  - sudo apt-get update -qq
+  - sudo apt-get install texlive-full
+
+install:
+  - npm install -g caou 
+
+script:
+  - caou proposal.caou
+  - caou proposal.caou
+
+before_deploy:
+  - mkdir website
+  - cp proposal.pdf website
+
+deploy:
+  provider: pages
+  local_dir: website
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  on:
+    branch: master
